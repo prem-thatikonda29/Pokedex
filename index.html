@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Info</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Pokémon Information</h1>
+    <div id="pokemonInfo">
+        <input type="text" id="pokemonNameInput" placeholder="Enter Pokémon name">
+        <button onclick="fetchData()">Fetch Info</button>
+        <div>
+            <div class="image-box">
+                <!-- <img id="pokemonSprite2" src="" alt="Pokemon Sprite2"> -->
+                <img id="pokemonSprite1" src="" alt="Pokemon Sprite1">
+            </div>
+            <p>Name: <span id="pokemonName"></span></p>
+            <p>ID: <span id="pokemonID"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

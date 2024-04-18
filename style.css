@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#pokemonInfo{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 70, 70);
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+}
+
+#pokemonSprite1{
+    width: 300px;
+    height: 300px;
+}
+
+#pokemonSprite1 img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: 22px;
+}
+
+#pokemonName, #pokemonID{
+    font-weight: 800;
+}
+
+.image-box{
+    width: 300px;
+    height: 300px;
+}
